@@ -1,0 +1,133 @@
+ul{
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    color: black;
+}
+.btn:hover{
+    background-color: red !important;
+    border-color: red !important;
+}
+/* header section */
+#header{
+    background-color:#596e79;
+    text-align: center;
+}
+.japanese-sign{
+    width:80px;
+}
+.nav-item{
+    padding:0px 30px;
+    font-size: 25px;
+}
+.nav-link:hover{
+color: red !important;
+}
+.header-brand{
+    padding: 110px 0px;
+}
+/* ramen image-responsivness */
+@media screen and (max-width:1520px) {
+    .ramen {
+        display: inline-block;
+         width: 100%;
+    }
+}
+
+/* section how to order */
+#how-to-order{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.second-header{
+    color: red;
+    padding: 50px 0px 45px;
+}
+.little-arrow{
+    color: red;
+}
+@media screen and (max-width:992px){
+    .first-col{
+        margin-right:30px;
+    }
+}
+@media screen and (max-width:767px){
+    .first-col{
+        margin-left:30px;
+    }
+    .little-arrow{
+        padding: 20px 0px;
+        transform: rotate(90deg);
+    }
+    .col{
+        padding-top: 25px;
+    }
+}
+/* ramen-bowls section */
+#ramen-bowls{
+background-color: #f7af4b;
+
+}
+.ramen-bowls-header{
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+
+}
+.menu-row{
+    padding-top: 60px;
+}
+.prices{
+    color: red;
+}
+@media (max-width: 575.98px) { 
+    .menu-row{
+        padding-left: 30px;
+    }
+}
+.colbtn{
+padding: 50px 0px;
+}
+/* happy hour section */
+#happy-hour{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.header-happyhour{
+    color: red;
+    padding: 60px 0px 25px 0px;
+}
+.happyhour-p{
+    color: #f7af4b;
+}
+/* pictures section */
+.pictures-div{
+   font-size: 0px;
+}
+.footer-image{
+    width: 506.4px;
+}
+@media (max-width:1524px){
+    .footer-image{
+        display:inline-block;
+    width: 33.333334%;
+}
+}
+/* footer section */
+#footer{
+    background-color: #596e79;
+    padding: 40px 0px 65px 0px ;
+    text-align: center;
+}
+.iconage{
+    color: #f7af4b;
+    text-align: right;
+    padding-left: 10px;
+}
+@media (max-width:992px){
+    .p-footer{
+        padding: 20px 0px;
+    }
+}
